@@ -1,0 +1,144 @@
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.iPadContactsList ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+} 
+
+.iPadContactsLeft {
+	width: 330px;
+	background: #9d9d9d;
+	float: left;
+	height: 600px;
+	overflow: hidden
+}
+
+.workspace {
+	width: 100%;
+	height: 42px;
+	color: #fff;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f3f5f7),
+		to(#a8adba) );
+	margin-top: 0;
+	position: relative;
+	text-align: center;
+	border-bottom: 1px solid #838a9a;
+	line-height: 42px
+}
+
+.iPadContactsList {
+	width: 100%;
+	background: #fff;
+	overflow: auto;
+	height: 677px
+}
+
+.arrow {
+	width: 58px;
+	height: 28px;
+	border: 1px solid #878787;
+	border-radius: 5px;
+	line-height: 28px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#dcdee0),
+		color-stop(0.5, #c1c5ce), color-stop(0.51, #b2b6c0), to(#a8adba) );
+	position: absolute;
+	top: 6px;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer
+}
+
+.arrow:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#b1bcc4),
+		color-stop(0.5, #a3acb3), color-stop(0.51, #8c9499), to(#787c7f) );
+}
+
+.new {
+	left: 5px;
+}
+
+.delete {
+	right: 5px
+}
+
+.workspace h3 {
+	line-height: 42px;
+	font-size: 16px;
+	margin: 0;
+	padding: 0
+}
+
+.iPadContactsList li {
+	line-height: 45px;
+	border-bottom: 1px solid #e0e0e0;
+	position: relative;
+	padding-left: 50px;
+}
+
+.iPadContactsList li:last-of-type {
+	border-bottom: none
+}
+
+.iPadContactsList li span {
+	display: block;
+	position: absolute
+}
+
+.iPadContactsList li:hover,.iPadContactsList li.on {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4),
+		to(#d1d1d1) );
+}
+
+span.photo {
+	left: 10px;
+	top: 7px;
+}
+
+.star {
+	width: 24px;
+	height: 24px;
+	background: url(../images/star.png) no-repeat;
+	right: 10px;
+	top: 9px
+}
+
+.star.on {
+	background: url(../images/star-light.png) no-repeat;
+}
+
+.iPadContactsRight {
+	margin-left: 330px;
+	border-left: 1px solid #9d9d9d;
+	background: #d5d8de;
+	height: 600px
+}
+
+::-webkit-scrollbar-track-piece {
+	background-color: #e6e6e6;
+	-webkit-border-radius: 0px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	height: 50px;
+	background-color: #999;
+	-webkit-border-radius: 4px;
+	outline: 2px solid #fff;
+	outline-offset: -2px;
+	border: 2px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	height: 50px;
+	background-color: #94a3ae;
+	-webkit-border-radius: 4px;
+}
